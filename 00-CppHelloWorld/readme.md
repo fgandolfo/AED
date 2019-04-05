@@ -4,10 +4,10 @@
 - En esta instancia genero un nuevo camino que apunte al archivo "bin" correspondiente a el compilador.
 - Entro a cmd:
 
-C:\...\..>g++ hello.cpp
+g++ hello.cpp
 
 		// Se compila el archivo y se crea un ejecutable "a.exe"
 
-C:\...\..>a.exe > a.exe > output.txt
+a.exe > output.txt
 
 		// Se abre un archivo de texto con "output.txt" donde se encuentra escrito "Hello World!"
