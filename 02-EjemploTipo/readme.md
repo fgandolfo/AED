@@ -1,13 +1,37 @@
-## An·lisis del problema:
+## An√°lisis del problema:
   
-  ##### TranscripciÛn del problema:
-    DiseÒar un programa en C++ que pueda demostrar la funcionalidad de los diferentes tipos de datos visto durante las clases.
-  ##### Refinamiento del problema e HipÛtesis de trabajo:
-    Debemos generar numeros de todos los tipos de valores tales como bool, char, unsigned int, double y string como valores literales (constantes) y demostrar quÈ funciones pueden cumplir basado en el tipo de valor.
+  ##### Transcripci√≥n del problema:
+    Dise√±ar un programa en C++ que pueda demostrar la funcionalidad
+    de los diferentes tipos de datos visto durante las clases.
+  ##### Refinamiento del problema e Hip√≥tesis de trabajo:
+    Debemos generar numeros de todos los tipos de valores tales como
+    bool, char, unsigned int, double y string como valores literales
+    (constantes) y demostrar qu√© funciones pueden cumplir basado en 
+    el tipo de valor.
   ##### Modelo IPO:
-    Entradas: Valores de tipo bool, char, unsigned int, double y string ingresados por el programador como constantes.
-    Proceso: Mediante sumas y distintos operadores demostramos las funcionalidades de los diferentes tipos de valores.
-    Salidas: Mostramos a travÈs de la pantalla los diferentes ejemplos posibles.
+    Entradas: Valores de tipo bool, char, unsigned int, double y
+    string ingresados por el programador como constantes.
+    Proceso: Mediante sumas y distintos operadores demostramos las
+    funcionalidades de los diferentes tipos de valores.
+    Salidas: Mostramos a trav√©s de la pantalla los diferentes ejemplos
+    posibles.
 
-## DiseÒo de la soluciÛn:
-    Primero incializamos todas las constantes de los 5 distintos tipos de valores, luego en el main mostramos un nombre que tenga el tipo de dato "string", y hacemos la suma de dos integrales, la divisiÛn de dos reales "double", usamos un "char" para declara una nueva linea y, junto con la funciÛn assert y un "bool", afirmamos que la suma y la divisiÛn fueron correctas.
+## Dise√±o de la soluci√≥n:
+    Primero incializamos todas las constantes de los 5 distintos tipos 
+    de valores, luego en el main mostramos un nombre que tenga el tipo 
+    de dato "string", y hacemos la suma de dos integrales, la divisi√≥n 
+    de dos reales "double", usamos un "char" para declara una nueva linea
+    y, con dos valores booleanos, afirmamos que la suma y la
+    divisi√≥n fueron correctas y que su resultado pertenece al tipo de
+    valor correspondiente.
+
+    Verificamos que los int sean unsigned usando la funci√≥n assert, la
+    cual termina el programa si la condici√≥n impuesta en la funci√≥n
+    no es la correcta.
+
+    Luego mostramos un texto explicativo escrito mediante un string
+    junto con los dos valores booleanos que muestran el valor 1 dando
+    conformidad de verdadero sobre las acciones realizadas con los valores
+    int y double.
+
+## El otro tipo de valor que vimos en clase es el void, el cual es un valor vac√≠o como lo indica su nombre. 
