@@ -1,29 +1,29 @@
-## An醠isis del problema:
+## An谩lisis del problema:
   
-  ##### Transcripci髇 del problema:
-    Dise馻r un programa en C++ que pueda, dada una temperatura
+  ##### Transcripci贸n del problema:
+    Dise帽ar un programa en C++ que pueda, dada una temperatura
     expresada en Farenheit, devolver la misma temperatura
     expresada en Celsius.
-  ##### Refinamiento del problema e Hip髏esis de trabajo:
-    Debemos generar una funci髇 que, cuando reciba un valor 'x'
-    perteneciente a los reales, la funci髇 calcule una imagen en
-    los reales igual a (matem醫icamente):
-			## f(x) = [5*(f-32)]/9
-  ##### Modelo IPO:
+  ##### Refinamiento del problema e Hip贸tesis de trabajo:
+    Debemos generar una funci贸n que, cuando reciba un valor 'x'
+    perteneciente a los reales, la funci贸n calcule una imagen en
+    los reales igual a (matem谩ticamente):
+    https://user-images.githubusercontent.com/49297877/58593931-b6edc900-8242-11e9-91c6-03f0c59a3554.png
+    ##### Modelo IPO:
     Entradas: Un valor de tipo flotante representativo de una
     temperatura expresada en Farenheit.
-    Proceso: Procesamos la funci髇 'Celsius' y nos devuelve el valor
+    Proceso: Procesamos la funci贸n 'Celsius' y nos devuelve el valor
     de la temperatura en Celsius.
-    Salidas: Mostramos a trav閟 del monitor el resultado devuelto por
-    nuestra funci髇.
+    Salidas: Mostramos a trav茅s del monitor el resultado devuelto por
+    nuestra funci贸n.
 
-## Dise駉 de la soluci髇:
+## Dise帽o de la soluci贸n:
     Primero, recibimos el valor de tipo flotante dado por el usuario.
-    Luego, mediante la funci髇 'assert' verificamos que la funci髇 nos
+    Luego, mediante la funci贸n 'assert' verificamos que la funci贸n nos
     devuelva los resultados deseados, haciendo testeos de posibles fallas.
     
-    Una vez verificada la funci髇, mostramos en pantalla el valor en Celsius
-    ingresado por el usuario, tambi閚 de tipo flotante.
+    Una vez verificada la funci贸n, mostramos en pantalla el valor en Celsius
+    ingresado por el usuario, tambi茅n de tipo flotante.
 
-    Para la funci髇 booleana AreNear, tomamos el valor de dos valores de tipo
+    Para la funci贸n booleana AreNear, tomamos el valor de dos valores de tipo
     flotante y evaluamos si su tolerancia es mayor a el 0,1%
