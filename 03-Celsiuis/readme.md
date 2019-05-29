@@ -8,7 +8,9 @@
     Debemos generar una función que, cuando reciba un valor 'x'
     perteneciente a los reales, la función calcule una imagen en
     los reales igual a (matemáticamente):
-    https://user-images.githubusercontent.com/49297877/58593931-b6edc900-8242-11e9-91c6-03f0c59a3554.png
+
+![equation](https://user-images.githubusercontent.com/49297877/58594070-1055f800-8243-11e9-8204-727f3eb3f3bf.png)
+    
     ##### Modelo IPO:
     Entradas: Un valor de tipo flotante representativo de una
     temperatura expresada en Farenheit.
